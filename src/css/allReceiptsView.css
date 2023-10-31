@@ -1,0 +1,34 @@
+a {
+  text-decoration: none;
+  padding: 5px;
+  /* margin: 5px; */
+}
+
+.receipts-table {
+  margin-top: 3em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1em;
+}
+
+.receipt-card {
+  margin: 10px;
+}
+
+.pages {
+  padding: 2em 0;
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+}
+
+.change-page-btn {
+  background-color: white;
+  border-radius: 5px;
+  padding: 0.2em;
+}
+
+.change-page-btn:hover {
+  border: 1px solid black;
+  box-shadow: none;
+  transform: scale(1.2);
+}

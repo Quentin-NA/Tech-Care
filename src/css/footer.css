@@ -1,0 +1,17 @@
+footer {
+    text-align: center;
+    margin-top: 6em;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+    font-size: 12px;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+}
+
+parent:has(> footer) {
+    position: relative;
+  }
